@@ -1,0 +1,87 @@
+/*Обнуление*/
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	color: #000;
+   background-color: #79ADBA ;
+}
+
+/*Для оболочки и футера +для скролла */
+.wrapper {
+   min-height: 100%;
+	overflow: hidden;
+   position: relative;
+}
+.block {  /*центровка посередине старницы адаптивно*/
+text-align:  center;
+ }
+h1 {
+   font-size: 42px;
+   color: #fff;
+   padding: 20px 0px 20px 0px;
+   letter-spacing: 0.1em;
+}
+input {
+   border: 2px solid #243235;
+   min-height: 35px;
+   width: 25%;
+   padding: 0px 0px 0px 6px;
+}
+button {
+   border-radius: 10px;
+   height: 37px;
+   padding: 10px 25px;
+   border: 2px solid #243235;
+   margin: 0px 0px 20px 0px;
+   text-transform: uppercase;
+}
+button:hover {
+   color: #fff;
+   background-color: #014253;
+
+}
+.btn {
+   padding: 15px 0px 0px 0px;
+margin: 0 auto;
+   width: 200px;
+   background-color: #014253 ;
+ color: #fff;
+ font-size: 20px;
+}
+.btn button {
+   padding: 10px 25px;
+   margin: 0px 0px 10px 10px;
+}
+.btn button:hover {
+   border: 2px solid #fff;
+}
